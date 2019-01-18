@@ -1,0 +1,19 @@
+Redraw startup logo.
+Resize minimap sprite.
+Make the possibiliy to change nickname.
+Make possibility to configure settings with keyboard.
+Change the font of the title label.
+Probably change the buttons' font.
+Probably convert the camera zoom code to step event.
+Clean the fullscreen toggler.
+Improve map tileset.
+Provide instructions for controls.
+Add the possibility to move with mouse.
+Make profile system.
+Add minigame.
+Many other things.
+
+Multiplayer:
+Make multiplayer.
+Remake the player color system (each player must have a unique color).
+Probably remake the player completely.

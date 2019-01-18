@@ -1,0 +1,4 @@
+From original map:
+First lane length is 162.5 times player's size
+1, 3, 5 lanes width is 17.5 times player's size
+2, 4 lanes width is 12.5 times player's size
