@@ -5,13 +5,19 @@ Make possibility to configure settings with keyboard.
 Change the font of the title label.
 Probably change the buttons' font.
 Probably convert the camera zoom code to step event.
-Clean the fullscreen toggler.
-Improve map tileset.
+Clean the fullscreen toggler (F10).
+Redraw map tileset.
 Provide instructions for controls.
 Add the possibility to move with mouse.
 Make profile system.
 Add minigame.
-Many other things.
+Use delta time system;
+Do something with game freezing when interacting with window (make borderless window?).
+Change player colors.
+Make global data save when player enters save zone.
+Probably convert menu buttons objects to text.
+Make camera keep following player when finishing a round.
+Make removal of ds.
 
 Multiplayer:
 Make multiplayer.

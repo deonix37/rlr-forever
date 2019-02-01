@@ -9,10 +9,15 @@ move_sprite[2, 1] = spr_zergling_right; // right
 move_sprite[2, 2] = spr_zergling_right; // down & right
 */
 
+alarm_death = 0;
+
 mouse_dest_x = 0;
 mouse_dest_y = 0;
 move_speed = 5;
 is_moving = false;
+is_dead = false;
+outline_color = c_black;
 
 image_speed = 1;
 image_blend = global.player_colors[? global.save_data[? "Color"]];
+sprite_index = spr_zergling_right;

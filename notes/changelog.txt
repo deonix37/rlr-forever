@@ -1,1 +1,39 @@
-empty
+v0.2
+
+Music:
+* Added music.
+* Implemented the BGM volume setting functionality.
+* Converted volume range to 0–1.
+* Added a possibility to skip current track (with "N").
+* Added a possibility to mute music (with "M").
+
+Camera and window:
+* Added a possibility to make the camera follow player (with "F").
+* Made the camera save its size into the save file when zoomed.
+* Made the camera's return animation when finishing a round.
+* Made cursor hide in fullscreen when not moving it.
+* Made the game window borderless (to prevent ability to freeze the game).
+
+Player: 
+* Added player's runling profiles.
+* Added runling's sprite outline.
+* Added a player's death script.
+* Resized and changed zergling sprite.
+* Implemented player's leveling system.
+
+Drones:
+* Resized drone's sprite.
+* Made drones check for one layer of collision instead of two.
+
+Save zones:
+* Made the player's runling profile save when entering a save zone.
+* Made the player gain xp and level when entering a save zone.
+
+HUD:
+* Improved player's displaying on the minimap.
+
+Other:
+* Made the game save when entering the labyrinth room.
+* Converted player's finish handler to a separate object.
+* Added two separate collision layers for player and drones.
+* Using YYC compiler from now on.

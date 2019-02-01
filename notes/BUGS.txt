@@ -1,1 +1,2 @@
 The player movement is blurry (just me?).
+Music transition is slow.

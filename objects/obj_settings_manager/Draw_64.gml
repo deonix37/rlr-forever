@@ -1,1 +1,1 @@
-settings_event_draw();
+settings_draw();

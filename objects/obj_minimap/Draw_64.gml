@@ -1,1 +1,1 @@
-minimap_event_draw();
+minimap_draw();

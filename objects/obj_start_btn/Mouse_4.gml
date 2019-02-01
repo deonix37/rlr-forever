@@ -1,1 +1,1 @@
-room_goto(rm_labyrinth);
+room_goto(rm_selection);

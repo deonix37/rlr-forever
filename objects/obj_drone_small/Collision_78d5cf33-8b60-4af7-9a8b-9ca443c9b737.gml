@@ -1,1 +1,1 @@
-game_restart();
+player_death_handler();

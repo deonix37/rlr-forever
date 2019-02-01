@@ -1,0 +1,3 @@
+instance_deactivate_object(obj_new_runling_btn);
+instance_deactivate_object(obj_load_runling_btn);
+display_player_runlings();
