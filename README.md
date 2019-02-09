@@ -1,11 +1,11 @@
 About
 -----
-This is a parody game of a map called Runling Run from a game called Starcraft 2.
-The game engine is [GameMaker Studio 2](https://www.yoyogames.com/gamemaker) (2.2.0.343).
+This is a parody game of a map called Runling Run from a game called Starcraft 2.<br/>
+The game engine is [GameMaker Studio 2](https://www.yoyogames.com/gamemaker) (runtime v2.2.1.291).
 
 How to play
 -----
-Windows only.
+Windows only.<br/>
 Download the latest release, unpack the archive, and run the game.
 
 Credits

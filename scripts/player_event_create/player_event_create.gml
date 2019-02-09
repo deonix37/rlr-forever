@@ -10,12 +10,19 @@ move_sprite[2, 2] = spr_zergling_right; // down & right
 */
 
 alarm_death = 0;
+alarm_regen = 1;
+
+is_ability_1_enabled = false;
+is_ability_2_enabled = false;
+
+is_moving = false;
+is_dead = false;
 
 mouse_dest_x = 0;
 mouse_dest_y = 0;
 move_speed = 5;
-is_moving = false;
-is_dead = false;
+death_timer = 2;
+
 outline_color = c_black;
 
 image_speed = 1;

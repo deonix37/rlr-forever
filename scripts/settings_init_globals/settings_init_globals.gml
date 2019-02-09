@@ -5,8 +5,10 @@ enum OPTION_TYPES {input, list, volume_range}
 global.options = ds_map_create();
 global.options[? "Color"] = ds_list_create();
 global.options[? "BGM mode"] = ds_list_create();
-ds_list_add(global.options[? "Color"], "Red", "Brown", "Orange", "Yellow", "Green",
-            "Blue", "Indigo", "Pink", "Peach", "Dark-Blue", "Dark-Puple", "Dark-Green");
+
+ds_list_add(global.options[? "Color"], "Red", "Brown", "Orange", "Yellow",
+            "Green", "Blue", "Indigo", "Pink", "Peach", "Dark-Blue",
+            "Dark-Puple", "Dark-Green");
 ds_list_add(global.options[? "BGM mode"], "Classic", "New");
 
 global.player_colors = ds_map_create();

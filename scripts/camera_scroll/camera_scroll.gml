@@ -17,10 +17,14 @@ var can_scroll_right = camera_x + camera_width < room_width - camera_move_speed;
 var can_scroll_up = camera_y > camera_move_speed;
 var can_scroll_down = camera_y + camera_height < room_height - camera_move_speed;
 
-var is_direction_left = keyboard_check(ord("A")) || (is_at_border_left && window_get_fullscreen());
-var is_direction_right = keyboard_check(ord("D")) || (is_at_border_right && window_get_fullscreen());
-var is_direction_up = keyboard_check(ord("W")) || (is_at_border_up && window_get_fullscreen());
-var is_direction_down = keyboard_check(ord("S")) || (is_at_border_down && window_get_fullscreen());
+var is_direction_left = keyboard_check(global.key_camera_left)
+                        || (is_at_border_left && window_get_fullscreen());
+var is_direction_right = keyboard_check(global.key_camera_right)
+                        || (is_at_border_right && window_get_fullscreen());
+var is_direction_up = keyboard_check(global.key_camera_up)
+                        || (is_at_border_up && window_get_fullscreen());
+var is_direction_down = keyboard_check(global.key_camera_down)
+                        || (is_at_border_down && window_get_fullscreen());
 
 var is_scrolling_left = is_direction_left && can_scroll_left;
 var is_scrolling_right = is_direction_right && can_scroll_right;

@@ -1,3 +1,31 @@
+v0.3
+
+Camera and window:
+* Grouped the camera's zooming events into one event.
+* Modified the camera's return script.
+
+Player:
+* Transfered the current runling info from save data to a player variable.
+* Made the player's death script run from player's object.
+* Made some fundamental changes.
+* Implemented player's energy regeneration.
+* Implemented player's abilities (the hotkeys are "Z" and "X").
+
+Drones:
+* Added a base parent drone.
+* Added the big drone.
+
+Rooms:
+* Created a script group for rooms' creation code.
+
+Other:
+* Changed some layers' names.
+* Made the save zones to be objects.
+* Made a separate script for new save initialization.
+* Made an initialization script for input configuration.
+* Transfered camera's reset code from labyrinth creation code to camera object.
+
+-----
 v0.2
 
 Music:
@@ -9,8 +37,8 @@ Music:
 
 Camera and window:
 * Added a possibility to make the camera follow player (with "F").
+* Made a return animation of the camera when finishing a round.
 * Made the camera save its size into the save file when zoomed.
-* Made the camera's return animation when finishing a round.
 * Made cursor hide in fullscreen when not moving it.
 * Made the game window borderless (to prevent ability to freeze the game).
 
@@ -20,6 +48,7 @@ Player:
 * Added a player's death script.
 * Resized and changed zergling sprite.
 * Implemented player's leveling system.
+* Added a player's creation function in the labyrinth's creation code.
 
 Drones:
 * Resized drone's sprite.

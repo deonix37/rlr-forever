@@ -18,6 +18,7 @@ Make global data save when player enters save zone.
 Probably convert menu buttons objects to text.
 Make camera keep following player when finishing a round.
 Make removal of ds.
+Make an arrow if player leaves camera's view.
 
 Multiplayer:
 Make multiplayer.

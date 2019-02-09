@@ -5,7 +5,7 @@ if (!instance_exists(obj_player)) {
 var camera_height = camera_get_view_height(MAIN_CAMERA);
 var minimap_scale = view_ratio * camera_height / minimap_spr_size;
 
-var player_radius = player_scale * minimap_scale;
+var player_radius = player_ratio * minimap_scale;
 var player_x = obj_player.x * minimap_scale * minimap_spr_ratio - player_radius / 2;
 var player_y = obj_player.y * minimap_scale * minimap_spr_ratio - player_radius / 2;
 

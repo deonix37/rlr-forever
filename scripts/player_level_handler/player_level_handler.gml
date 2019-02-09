@@ -1,5 +1,3 @@
-var runling = global.save_data[? "Current runling"];
-        
 runling[? "XP current"] += XP_PER_ROUND;
         
 while (runling[? "XP current"] >= runling[? "XP level up"]) {

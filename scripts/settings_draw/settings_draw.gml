@@ -1,15 +1,15 @@
 draw_set_font(fnt_menu);
 
 for (var i = 0; i < array_length_1d(global.settings_labels); i++) {
-    var setting_name = global.settings_labels[i];
-    var setting_value = global.save_data[? setting_name];
-    var setting_type = global.settings_types[? setting_name];
+    var setting_label = global.settings_labels[i];
+    var setting_value = global.save_data[? setting_label];
+    var setting_type = global.settings_types[? setting_label];
     
     draw_set_color(c_white);
     draw_set_halign(fa_left);
-    draw_text(label_x, label_y[i], setting_name);
+    draw_text(label_x, label_y[i], setting_label);
     
-    if (setting_name == "Color") {
+    if (setting_label == "Color") {
         draw_set_color(global.player_colors[? setting_value]);
     }
     

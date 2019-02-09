@@ -5,4 +5,4 @@ track = tracklist[track_index];
 
 audio_play_sound(track, 1, false);
 
-alarm[0] = room_speed * audio_sound_length(track);
+alarm[transition_alarm] = room_speed * audio_sound_length(track);

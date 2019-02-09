@@ -5,9 +5,9 @@ switch (setting_type) {
         var increment = type == ARROW_TYPES.right ? 0.1 : -0.1;
         var volume_old = global.save_data[? setting];
         var volume_new = clamp(volume_old + increment, 0, 1);
-        var volume_new_formatted = round(volume_new * 10) / 10;
+        var volume_new_rounded = round(volume_new * 10) / 10;
         
-        global.save_data[? setting] = volume_new_formatted;
+        global.save_data[? setting] = volume_new_rounded;
         
         break;
     case OPTION_TYPES.list:
