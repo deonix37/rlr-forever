@@ -1,3 +1,31 @@
+v0.4
+
+Drones:
+* Resized small drones' sprites.
+* Changed logic of collision with player.
+* Added blue (aviator), pink (wanderer), and walker chaser drones.
+
+Player:
+* Transfered player_init script's code to player's create code.
+* Made the player's outline script to be a common script.
+
+Save zones:
+* Added a variable to store reached players.
+* Added a variable to prevent first zone from granting xp to player.
+* Changed to check if player reached the zone instead of removing it.
+* Transfered save zone handler from player to save zone.
+
+Camera:
+* Made camera zooming with numpad (+/-) to be more controllable.
+* Made the max camera's width and height to be the current monitor's resolution.
+* Added a variable to the save data that checks if player has camera following on.
+
+Other:
+* Made the finish to be a save zone.
+* Fixed long delay between music transition.
+* Changed room_speed to game_get_speed().
+
+-----
 v0.3
 
 Camera and window:
@@ -17,13 +45,13 @@ Drones:
 
 Rooms:
 * Created a script group for rooms' creation code.
+* Changed some layers' names.
 
 Other:
-* Changed some layers' names.
 * Made the save zones to be objects.
-* Made a separate script for new save initialization.
+* Made a separate script for new savefile initialization.
 * Made an initialization script for input configuration.
-* Transfered camera's reset code from labyrinth creation code to camera object.
+* Transfered camera's reset code from labyrinth creation code to the camera object.
 
 -----
 v0.2

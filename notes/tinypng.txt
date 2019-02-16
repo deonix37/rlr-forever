@@ -1,1 +1,0 @@
-https://tinypng.com/

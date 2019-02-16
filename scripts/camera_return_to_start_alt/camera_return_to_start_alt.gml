@@ -12,7 +12,7 @@ var distance = point_distance(camera_x_new, camera_y_new, camera_return_dest_x, 
 camera_return_frames--;
 
 camera_set_view_pos(MAIN_CAMERA, camera_x_new, camera_y_new);
-    
+
 if (distance == 0) {
     global.is_round_transition = false;
     

@@ -1,5 +1,5 @@
-var is_zoom_in = mouse_wheel_up() || keyboard_check(global.key_zoom_in);
-var is_zoom_out = mouse_wheel_down() || keyboard_check(global.key_zoom_out);
+var is_zoom_in = mouse_wheel_up() || keyboard_check_pressed(global.key_zoom_in);
+var is_zoom_out = mouse_wheel_down() || keyboard_check_pressed(global.key_zoom_out);
 
 if (is_zoom_in) {
     var zoom_factor = -1;

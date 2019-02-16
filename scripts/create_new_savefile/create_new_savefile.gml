@@ -6,5 +6,6 @@ global.save_data[? "BGM volume"] = 1;
 global.save_data[? "SFX volume"] = 1;
 global.save_data[? "Camera width"] = 960;
 global.save_data[? "Camera height"] = 540;
+global.save_data[? "Camera following"] = false;
     
 ds_map_add_list(global.save_data, "Runlings", ds_list_create());

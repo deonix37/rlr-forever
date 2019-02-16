@@ -9,7 +9,7 @@
         "7bdafdc8-2c22-42a4-8771-9d8510314c30"
     ],
     "filterType": "GMScript",
-    "folderName": "room",
+    "folderName": "rooms",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

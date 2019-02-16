@@ -1,1 +1,1 @@
-player_draw_outline();
+draw_outline();

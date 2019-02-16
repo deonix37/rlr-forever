@@ -6,7 +6,7 @@ The game engine is [GameMaker Studio 2](https://www.yoyogames.com/gamemaker) (ru
 How to play
 -----
 Windows only.<br/>
-Download the latest release, unpack the archive, and run the game.
+Download the [latest release](/../../releases), unpack the archive, and run the game.
 
 Credits
 -----

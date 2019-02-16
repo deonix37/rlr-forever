@@ -9,12 +9,12 @@ camera_move_border = 10;
 camera_move_speed = 10;
 
 camera_return_speed = 0.1;
-camera_return_dest_x = 256;
-camera_return_dest_y = 256;
+camera_return_dest_x = 0;
+camera_return_dest_y = 0;
 
 min_camera_width = 640;
 min_camera_height = 360;
-max_camera_width = 1536;
-max_camera_height = 864;
+max_camera_width = display_get_width();
+max_camera_height = display_get_height();
 
 camera_set_view_border(MAIN_CAMERA, max_camera_width / 2, max_camera_height / 2);

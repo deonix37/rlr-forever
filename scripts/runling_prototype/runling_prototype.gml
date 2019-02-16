@@ -1,7 +1,7 @@
-var runling = ds_map_create();
+var prototype = ds_map_create();
 
-runling[? "Sprites"] = argument0;
-runling[? "Ability 1"] = argument1;
-runling[? "Ability 2"] = argument2;
+prototype[? "Sprites"] = argument0;
+prototype[? "Ability 1"] = argument1;
+prototype[? "Ability 2"] = argument2;
 
-return runling;
+return prototype;

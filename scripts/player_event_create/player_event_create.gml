@@ -8,9 +8,8 @@ move_sprite[2, 0] = spr_zergling_right; // up & right
 move_sprite[2, 1] = spr_zergling_right; // right
 move_sprite[2, 2] = spr_zergling_right; // down & right
 */
-
-alarm_death = 0;
-alarm_regen = 1;
+runling = global.runling_temporary;
+runling_energy = runling[? "Max energy"];
 
 is_ability_1_enabled = false;
 is_ability_2_enabled = false;
@@ -18,13 +17,16 @@ is_ability_2_enabled = false;
 is_moving = false;
 is_dead = false;
 
+alarm_death = 0;
+alarm_regen = 1;
+
 mouse_dest_x = 0;
 mouse_dest_y = 0;
 move_speed = 5;
-death_timer = 2;
-
-outline_color = c_black;
+death_timer = 120;
 
 image_speed = 1;
 image_blend = global.player_colors[? global.save_data[? "Color"]];
 sprite_index = spr_zergling_right;
+    
+event_perform(ev_alarm, alarm_regen);

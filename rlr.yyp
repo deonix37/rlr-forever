@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "00f9b9b0-86d8-4993-ad1d-5ac051ed78ce",
+            "Value": {
+                "id": "062c31c6-0f0d-4fc8-97e1-a82f2a2f2af3",
+                "resourcePath": "objects\\obj_drone_aviator_big\\obj_drone_aviator_big.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "01e073b4-0d56-4748-b2df-7f8d5006b1bd",
             "Value": {
                 "id": "bdc21eff-9c56-4c40-a03b-2a1faba8b68a",
@@ -50,7 +58,7 @@
             "Key": "01f434c7-e006-4caf-bcde-0c272955c180",
             "Value": {
                 "id": "ff61fe1a-0e03-4f8a-96a0-5c3f68d1508f",
-                "resourcePath": "scripts\\player_draw_outline\\player_draw_outline.yy",
+                "resourcePath": "scripts\\draw_outline\\draw_outline.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -58,7 +66,7 @@
             "Key": "0210cc5a-35b3-4772-8ca4-0ea4001f12f8",
             "Value": {
                 "id": "423a5700-e9e1-4631-bacb-51b78b89d16b",
-                "resourcePath": "objects\\obj_drone_small\\obj_drone_small.yy",
+                "resourcePath": "objects\\obj_drone_numpty_small\\obj_drone_numpty_small.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -116,6 +124,14 @@
                 "id": "4dfcd6f0-4f07-4321-82a5-a398dce06f1e",
                 "resourcePath": "rooms\\rm_labyrinth\\rm_labyrinth.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "0b814b7f-1dd7-47e8-8cfa-82dd11f57d21",
+            "Value": {
+                "id": "b64ede7a-13d1-4953-b818-80737aec297e",
+                "resourcePath": "scripts\\create_path_grid\\create_path_grid.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -223,6 +239,22 @@
             }
         },
         {
+            "Key": "215803d8-3aea-4ed1-8b41-13dbe1997be4",
+            "Value": {
+                "id": "79215416-33b5-4bc7-8504-6106ee61bef3",
+                "resourcePath": "scripts\\drone_chaser_walker_event_create\\drone_chaser_walker_event_create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2374c9fa-b8d8-4449-b333-663e1e976aa1",
+            "Value": {
+                "id": "85050c84-4bc3-499e-9191-10f7209b0e89",
+                "resourcePath": "scripts\\drone_spawner_wanderer_create\\drone_spawner_wanderer_create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "23cb29b8-6bb8-420a-9412-3c0bc31ddf65",
             "Value": {
                 "id": "7b6c8185-e9a0-40d3-ae9a-9c84d158e6ee",
@@ -239,6 +271,14 @@
             }
         },
         {
+            "Key": "283473bd-e621-407f-8b29-f96bfba0e360",
+            "Value": {
+                "id": "9c12cbff-f798-4bcf-a57e-4d31984f9ca1",
+                "resourcePath": "objects\\obj_drone_aviator_small\\obj_drone_aviator_small.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a629604-422b-42e0-bc5f-cdd10ee26b53",
             "Value": {
                 "id": "31bca7dd-839d-4ae2-a4c8-642fe8057340",
@@ -252,6 +292,14 @@
                 "id": "6c461f70-bdec-4f92-ad7c-39d27842b8ae",
                 "resourcePath": "sounds\\mus_infinity\\mus_infinity.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2b39fd84-4c93-46b3-babc-185bd8698af0",
+            "Value": {
+                "id": "8063893f-6596-4537-bd60-db0e3414ecdf",
+                "resourcePath": "scripts\\drone_wanderer_event_create\\drone_wanderer_event_create.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -335,6 +383,14 @@
             }
         },
         {
+            "Key": "36bdcc87-d71e-4e5b-86f4-e8c55964b8b5",
+            "Value": {
+                "id": "350fa60e-8e5d-49da-be5f-7d2c9bed4a79",
+                "resourcePath": "objects\\obj_drone_wanderer_big\\obj_drone_wanderer_big.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a5af38c-757d-41ae-98c0-5d4b09e14e6a",
             "Value": {
                 "id": "327ae577-3abd-4b45-83e1-c5c14cee05c2",
@@ -410,7 +466,7 @@
             "Key": "42317f4b-26bf-42a6-8f5c-56ab7dc6706e",
             "Value": {
                 "id": "bcda2d54-7592-46d6-a719-ed254c986c2b",
-                "resourcePath": "scripts\\drone_move\\drone_move.yy",
+                "resourcePath": "scripts\\drone_numpty_move\\drone_numpty_move.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -439,11 +495,11 @@
             }
         },
         {
-            "Key": "43cf027d-fc0f-4ebc-8098-9937c1a7a593",
+            "Key": "47fd1d75-7e0f-4941-a95b-cb33b608ba73",
             "Value": {
-                "id": "d0140ffe-6620-4e33-b05b-c836eae9d2cf",
-                "resourcePath": "notes\\tinypng.yy",
-                "resourceType": "GMNotes"
+                "id": "269001fb-9e33-428e-a74b-62c50c6dc17b",
+                "resourcePath": "scripts\\drone_aviator_event_create\\drone_aviator_event_create.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -459,6 +515,22 @@
             "Value": {
                 "id": "6eaa470b-6ff4-4dff-b119-687eaa260ce1",
                 "resourcePath": "objects\\obj_load_runling_btn\\obj_load_runling_btn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4c171fc7-c503-4a47-9a7e-75875f0ca0bc",
+            "Value": {
+                "id": "db5fa24c-1b8c-4b8f-8afa-df8982ab1ab8",
+                "resourcePath": "scripts\\drone_chaser_walker_chase\\drone_chaser_walker_chase.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4c585031-81cd-4ff1-a50a-8fc3f99e599b",
+            "Value": {
+                "id": "54cdb887-9eeb-4fe3-9bb5-8189888eecc7",
+                "resourcePath": "objects\\obj_drone_pink_spawner\\obj_drone_pink_spawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -503,6 +575,14 @@
             }
         },
         {
+            "Key": "52d9d6ee-c6cb-408d-a250-c318e731d5fc",
+            "Value": {
+                "id": "920e8835-055b-415c-b1b9-2b7600fda9dc",
+                "resourcePath": "scripts\\drone_spawner_aviator_update\\drone_spawner_aviator_update.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "530559fc-03e2-4b52-b190-9517ac680a10",
             "Value": {
                 "id": "9d3bd473-4dc9-4e38-bc5c-e356f70f4d12",
@@ -530,7 +610,7 @@
             "Key": "593c9f29-bd99-4840-bf80-ad873c3c2fb1",
             "Value": {
                 "id": "1c92ec94-2002-45e5-a4ef-977e4e60518e",
-                "resourcePath": "scripts\\drone_event_create\\drone_event_create.yy",
+                "resourcePath": "scripts\\drone_numpty_event_create\\drone_numpty_event_create.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -543,10 +623,26 @@
             }
         },
         {
+            "Key": "5a88417b-8006-4118-8e5b-e43e16bb1b5f",
+            "Value": {
+                "id": "d3b9ecbd-b572-4bb9-912d-726a01545539",
+                "resourcePath": "objects\\obj_drone_blue_spawner\\obj_drone_blue_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5c580aa4-847e-4821-b741-277cb39ec32b",
             "Value": {
                 "id": "a20c10ff-0b08-458a-abfc-7c7320c0292a",
                 "resourcePath": "scripts\\player_init_globals\\player_init_globals.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5cdfcbfa-b56d-4fc1-974a-344649e7b98d",
+            "Value": {
+                "id": "d22c99d3-5a90-4839-8307-a4a0d054519d",
+                "resourcePath": "scripts\\drone_spawner_aviator_create\\drone_spawner_aviator_create.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -575,11 +671,11 @@
             }
         },
         {
-            "Key": "60dc1b80-29fb-4589-aa42-1ee4c83ca747",
+            "Key": "64d5cc58-769c-4a3f-ad13-cae9338b177b",
             "Value": {
-                "id": "51e2421a-d7d1-407d-bf04-6976ca44f658",
-                "resourcePath": "scripts\\player_init\\player_init.yy",
-                "resourceType": "GMScript"
+                "id": "4861aea1-c6a6-4918-b9da-c1538e622618",
+                "resourcePath": "views\\64d5cc58-769c-4a3f-ad13-cae9338b177b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -604,14 +700,6 @@
                 "id": "7358cd8a-9b6c-4c5c-b298-dd647139fa4f",
                 "resourcePath": "scripts\\room_menu_init\\room_menu_init.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "692f67f1-57cb-47f8-be27-80a081a3f22d",
-            "Value": {
-                "id": "ccbec555-22d5-4552-9325-53fc4ede786c",
-                "resourcePath": "objects\\obj_drone_parent\\obj_drone_parent.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -651,6 +739,14 @@
             "Value": {
                 "id": "139bf0cb-1344-4c36-8bfa-8136f58c4709",
                 "resourcePath": "scripts\\room_labyrinth_init\\room_labyrinth_init.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6f480c21-8ff9-4962-b979-23336019e2d9",
+            "Value": {
+                "id": "bf8b4687-cc4c-46b3-9e64-90c579260492",
+                "resourcePath": "scripts\\drone_wanderer_randomize\\drone_wanderer_randomize.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -695,14 +791,6 @@
             }
         },
         {
-            "Key": "7b79bb73-e69e-4f4b-951b-f8b9dee8d7b8",
-            "Value": {
-                "id": "40d03772-96fe-49af-bc4b-575fe2aec974",
-                "resourcePath": "objects\\obj_finish_manager\\obj_finish_manager.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7b943f43-d93f-4c5e-8406-a3c38d972769",
             "Value": {
                 "id": "cf2e1038-a27a-4096-a6dd-b51f0bd6eee8",
@@ -727,6 +815,14 @@
             }
         },
         {
+            "Key": "7e035c4c-b971-4ea0-af71-f3c2eb90cc05",
+            "Value": {
+                "id": "d021812a-7a83-493e-891b-9d6deb28c896",
+                "resourcePath": "scripts\\save_zone_event_start\\save_zone_event_start.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
             "Value": {
                 "id": "f8c49977-7939-4cc5-8a21-9cabf064703c",
@@ -740,6 +836,14 @@
                 "id": "6e8adef5-93b4-4588-aa5b-67f2daef5953",
                 "resourcePath": "sprites\\spr_arrow_right\\spr_arrow_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "80e8cf99-78e9-45b6-9c4e-8ebcea07c987",
+            "Value": {
+                "id": "410890f8-9e58-4a63-9550-b35c9d76a4e0",
+                "resourcePath": "views\\80e8cf99-78e9-45b6-9c4e-8ebcea07c987.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -786,7 +890,7 @@
             "Key": "90b59a26-4038-4689-a269-01ab9c1fb746",
             "Value": {
                 "id": "c01b60d9-3cc6-4d37-9082-c7f1d264b25e",
-                "resourcePath": "scripts\\drones_spawn\\drones_spawn.yy",
+                "resourcePath": "scripts\\drone_spawner_numpty_create\\drone_spawner_numpty_create.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -812,6 +916,14 @@
                 "id": "a4e7ef89-8769-47c8-a599-340ebaa7985f",
                 "resourcePath": "options\\tvos\\options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "96edcd5d-dd73-4258-b1f9-1ecec02c5342",
+            "Value": {
+                "id": "713e25d9-e41d-4586-ae09-95f3a5d7a257",
+                "resourcePath": "objects\\obj_drone_aviator_parent\\obj_drone_aviator_parent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -850,7 +962,7 @@
             "Key": "9a659e2e-264f-41d5-94a3-b7b43d848551",
             "Value": {
                 "id": "661f597f-5d37-4257-a3fa-10e0210f1f2c",
-                "resourcePath": "tilesets\\til_zones\\til_zones.yy",
+                "resourcePath": "tilesets\\ts_zones\\ts_zones.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -895,6 +1007,14 @@
             }
         },
         {
+            "Key": "a54e96b7-212d-489d-8871-7642c0f4b48b",
+            "Value": {
+                "id": "44aa8712-8a05-43da-8d37-cd625ff0b8c5",
+                "resourcePath": "views\\a54e96b7-212d-489d-8871-7642c0f4b48b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a5d86075-a143-4c83-872d-6e8f6d5d79a3",
             "Value": {
                 "id": "f344a7ca-8c84-4ee6-91de-a812019c98bf",
@@ -906,7 +1026,7 @@
             "Key": "a5f02a82-b936-4e8f-9d7d-5f89ea850069",
             "Value": {
                 "id": "e228dbf0-021b-470a-8e0a-33f0024b5dfa",
-                "resourcePath": "tilesets\\til_bg\\til_bg.yy",
+                "resourcePath": "tilesets\\ts_bg\\ts_bg.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -962,7 +1082,7 @@
             "Key": "b0a65d75-1acb-405c-9250-7868a0af9a52",
             "Value": {
                 "id": "180ee1da-8169-440f-bcf2-b04c733934b5",
-                "resourcePath": "objects\\obj_drone_big\\obj_drone_big.yy",
+                "resourcePath": "objects\\obj_drone_numpty_big\\obj_drone_numpty_big.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -986,7 +1106,7 @@
             "Key": "b25d4f63-0dad-499f-b44b-010b9a338804",
             "Value": {
                 "id": "bd2deab6-178f-4e1e-a5d3-c991d0eb3c49",
-                "resourcePath": "tilesets\\til_collision\\til_collision.yy",
+                "resourcePath": "tilesets\\ts_collision\\ts_collision.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -995,6 +1115,14 @@
             "Value": {
                 "id": "a91d44f3-81cf-4a36-a705-21fdec224781",
                 "resourcePath": "scripts\\create_ability\\create_ability.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b27b26b3-c29a-4406-ad54-b023d15b43d0",
+            "Value": {
+                "id": "9a76e71c-189e-41ca-be0d-3a0d5a9d9a5f",
+                "resourcePath": "scripts\\save_zone_chaser_handler\\save_zone_chaser_handler.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1018,7 +1146,7 @@
             "Key": "b7c3172e-53c0-4149-9f36-0d25ff56570d",
             "Value": {
                 "id": "6a67d448-0985-44e9-aad0-a0d6b1b25790",
-                "resourcePath": "scripts\\save_init_globals\\save_init_globals.yy",
+                "resourcePath": "scripts\\savefile_init_globals\\savefile_init_globals.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1031,18 +1159,18 @@
             }
         },
         {
-            "Key": "be4c4550-73d3-4d8d-a5aa-a893d3a7e01e",
+            "Key": "bb6d2a72-86ab-42ba-a456-16a096630715",
             "Value": {
-                "id": "a732b856-44be-4f8a-a6b1-ed9ca6e5749b",
-                "resourcePath": "notes\\BUGS.yy",
-                "resourceType": "GMNotes"
+                "id": "4f0d454b-769f-40b9-8497-dfbf896192b2",
+                "resourcePath": "scripts\\drone_handle_player_chaser\\drone_handle_player_chaser.yy",
+                "resourceType": "GMScript"
             }
         },
         {
             "Key": "bedc2378-50b4-4ebb-b12a-f1bb24358b03",
             "Value": {
                 "id": "bf416da1-51f7-4ce3-9240-598c1bdb59d5",
-                "resourcePath": "scripts\\finish_handler\\finish_handler.yy",
+                "resourcePath": "scripts\\save_zone_finish_handler\\save_zone_finish_handler.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1052,6 +1180,14 @@
                 "id": "6123ce07-c552-43ad-ac4e-cb55c89bac70",
                 "resourcePath": "sounds\\mus_ecuador\\mus_ecuador.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c3f97350-3f5e-4e9f-8ea4-4f8cd3c01a0b",
+            "Value": {
+                "id": "d2582eca-8477-4f30-a676-2c2ee07dd7b9",
+                "resourcePath": "objects\\obj_drone_chaser_parent\\obj_drone_chaser_parent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1076,6 +1212,14 @@
                 "id": "aaa34406-a545-45f0-b78e-ddc8243c0ec1",
                 "resourcePath": "scripts\\player_event_create\\player_event_create.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cbf243c2-e053-4016-bfa2-341c176e59e5",
+            "Value": {
+                "id": "ec45143a-3c27-4d74-8d1a-c9169c400159",
+                "resourcePath": "objects\\obj_drone_wanderer_small\\obj_drone_wanderer_small.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1167,6 +1311,14 @@
             }
         },
         {
+            "Key": "d59c0266-9860-4f7a-b31c-c0858e46c9da",
+            "Value": {
+                "id": "c1069692-40c6-4970-b068-70bf819bca15",
+                "resourcePath": "scripts\\drone_wanderer_move\\drone_wanderer_move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d5d53711-e291-482f-9b34-b434d6abaa26",
             "Value": {
                 "id": "53a34e59-9db1-4961-84f9-044575270a31",
@@ -1180,6 +1332,14 @@
                 "id": "831d84ed-1113-40ff-b63c-d0ce477b0bc9",
                 "resourcePath": "sprites\\spr_zergling_left\\spr_zergling_left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "da750fb9-9308-4d7f-930f-39941664a935",
+            "Value": {
+                "id": "a33eab1c-ef23-449d-9d1a-0ed8ae2fcd7d",
+                "resourcePath": "objects\\obj_drone_chaser_walker\\obj_drone_chaser_walker.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1199,11 +1359,11 @@
             }
         },
         {
-            "Key": "dd21d739-610f-4adf-9266-dbe758190e56",
+            "Key": "dcf945ae-c444-41f2-8205-9483bab7d695",
             "Value": {
-                "id": "059eacae-3d9c-4d01-b03e-0d83b0382d87",
-                "resourcePath": "scripts\\player_death_handler\\player_death_handler.yy",
-                "resourceType": "GMScript"
+                "id": "0408a965-55a0-4717-83d5-be0d6aedee6a",
+                "resourcePath": "objects\\obj_drone_numpty_parent\\obj_drone_numpty_parent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1215,11 +1375,27 @@
             }
         },
         {
+            "Key": "e0c6f3de-daa2-48b9-af31-5680b59baf4b",
+            "Value": {
+                "id": "93686d06-2fe5-4343-af5e-759fb9d44c8c",
+                "resourcePath": "objects\\obj_drone_wanderer_parent\\obj_drone_wanderer_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e13dce23-2aba-4942-abd5-f392fa29175e",
             "Value": {
                 "id": "158bdcc9-0ab6-4e7e-ac42-fb562289f87a",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e144c3e7-1f1e-47b0-bef7-3a10b0ed22fd",
+            "Value": {
+                "id": "e7627ede-ffcf-4b83-9bc1-ef858094e3cf",
+                "resourcePath": "scripts\\save_zone_player_handler\\save_zone_player_handler.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1236,6 +1412,14 @@
                 "id": "0621cf2a-6e73-4a25-b70c-4aba5a266b95",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e58cef8e-310c-42e3-9418-1e96cfd6a4d6",
+            "Value": {
+                "id": "5cb7ef67-e1ff-4343-aa8f-a7dc9488cc35",
+                "resourcePath": "scripts\\player_death_handler\\player_death_handler.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1298,7 +1482,7 @@
             "Key": "f3d64555-0ec2-43a5-a700-2c89aecc9ea6",
             "Value": {
                 "id": "0431f973-76ac-4dca-a3ae-75aee1636efe",
-                "resourcePath": "scripts\\initialize\\initialize.yy",
+                "resourcePath": "scripts\\initialize_all_globals\\initialize_all_globals.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1330,7 +1514,7 @@
             "Key": "f630baf3-07a9-40fe-bbc3-c09e13b5f19c",
             "Value": {
                 "id": "09f8995c-ae4f-4c1f-855f-39244b493cf3",
-                "resourcePath": "objects\\obj_drone_spawner\\obj_drone_spawner.yy",
+                "resourcePath": "objects\\obj_drone_white_spawner\\obj_drone_white_spawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1367,6 +1551,14 @@
             }
         },
         {
+            "Key": "f8d254c8-6c4c-4f87-a93f-549e6f2d42cd",
+            "Value": {
+                "id": "a0021a3e-2463-4744-8962-dc7e7e6a1fe7",
+                "resourcePath": "scripts\\drone_handle_player_normal\\drone_handle_player_normal.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fcebc70a-506b-414f-bed8-f0b6ce22ea2c",
             "Value": {
                 "id": "ad1f98f3-894e-4f43-b8e7-fba2407bfb97",
@@ -1400,14 +1592,12 @@
         }
     ],
     "script_order": [
-        "60dc1b80-29fb-4589-aa42-1ee4c83ca747",
         "cbae17f9-95e4-41dd-8d5a-da4b30bbb688",
         "3126841b-5ed3-484d-a7d9-6bca3c1fc920",
         "58f52bc3-bb3a-4aa0-8e5d-19d0ac9b6f76",
-        "01f434c7-e006-4caf-bcde-0c272955c180",
         "1a7d8364-a1f4-4af5-91b8-5f01c5abc865",
         "92eb69da-d455-4f15-a632-a56f40b123b9",
-        "dd21d739-610f-4adf-9266-dbe758190e56",
+        "e58cef8e-310c-42e3-9418-1e96cfd6a4d6",
         "c55f4098-6d2d-4942-b5e0-8e32c4d49afb",
         "b26d2f0e-65f4-46db-a2d5-74012792e55b",
         "fcebc70a-506b-414f-bed8-f0b6ce22ea2c",
@@ -1415,12 +1605,26 @@
         "90d50763-b44c-4f23-b459-6d8752fcb7f7",
         "f743b55f-dcdd-428b-a5cd-5a185feb534d",
         "d2c151aa-7014-490d-8649-6eccf850fd68",
-        "9e0bb93e-95cf-4ae5-948c-9c9f668fe39d",
         "6bb8934d-7865-43d0-adb5-e40870ee32f0",
         "047b5b01-4cd4-49d5-b21a-5d3a80632aa2",
-        "593c9f29-bd99-4840-bf80-ad873c3c2fb1",
         "90b59a26-4038-4689-a269-01ab9c1fb746",
+        "5cdfcbfa-b56d-4fc1-974a-344649e7b98d",
+        "52d9d6ee-c6cb-408d-a250-c318e731d5fc",
+        "2374c9fa-b8d8-4449-b333-663e1e976aa1",
+        "f8d254c8-6c4c-4f87-a93f-549e6f2d42cd",
+        "bb6d2a72-86ab-42ba-a456-16a096630715",
+        "215803d8-3aea-4ed1-8b41-13dbe1997be4",
+        "4c171fc7-c503-4a47-9a7e-75875f0ca0bc",
+        "593c9f29-bd99-4840-bf80-ad873c3c2fb1",
         "42317f4b-26bf-42a6-8f5c-56ab7dc6706e",
+        "2b39fd84-4c93-46b3-babc-185bd8698af0",
+        "6f480c21-8ff9-4962-b979-23336019e2d9",
+        "d59c0266-9860-4f7a-b31c-c0858e46c9da",
+        "47fd1d75-7e0f-4941-a95b-cb33b608ba73",
+        "7e035c4c-b971-4ea0-af71-f3c2eb90cc05",
+        "bedc2378-50b4-4ebb-b12a-f1bb24358b03",
+        "e144c3e7-1f1e-47b0-bef7-3a10b0ed22fd",
+        "b27b26b3-c29a-4406-ad54-b023d15b43d0",
         "60ce6d9f-9ab5-400c-a4a4-ea24c0d5b81b",
         "edd2f76f-a328-4140-a4ea-9ec74aaf1145",
         "4330b581-cd30-4720-96b6-69889b6668fd",
@@ -1447,10 +1651,12 @@
         "eea8e6cb-1f1b-4841-a08a-7566f107f27c",
         "97d73899-fbac-4b87-bb91-9f43072073da",
         "55a87cfc-0b8d-4398-acc4-27f59c03c4ad",
+        "0b814b7f-1dd7-47e8-8cfa-82dd11f57d21",
         "cd31507b-af7d-45c5-bedd-0f2914d9119c",
+        "9e0bb93e-95cf-4ae5-948c-9c9f668fe39d",
         "2ec851b3-c3c5-409a-ae22-5e80e3eff6b4",
         "d0c72fca-fef0-48e2-9770-e19f431fc577",
-        "bedc2378-50b4-4ebb-b12a-f1bb24358b03"
+        "01f434c7-e006-4caf-bcde-0c272955c180"
     ],
     "tutorial": ""
 }

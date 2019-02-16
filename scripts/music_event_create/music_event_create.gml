@@ -6,5 +6,3 @@ tracklist = [mus_i_wish_i_was_james_bond, mus_okii_robo_navigation_system,
 track = -1;
 track_index = -1;
 transition_alarm = 0;
-
-event_perform(ev_alarm, transition_alarm);
