@@ -1,1 +1,3 @@
 #macro MAIN_CAMERA view_camera[0]
+#macro DEFAULT_CAMERA_WIDTH 1280
+#macro DEFAULT_CAMERA_HEIGHT 720

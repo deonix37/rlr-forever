@@ -20,9 +20,11 @@ if (!is_colliding_x) {
     x = player_x_new;
 	    
     if (direction_factor_x == 1) {
-        sprite_index = spr_zergling_right;
+        direction = 0;
+        sprite_index = sprites[1];
     } else if (direction_factor_x == -1) {
-        sprite_index = spr_zergling_left;
+        direction = 180;
+        sprite_index = sprites[0];
     }
 }
     

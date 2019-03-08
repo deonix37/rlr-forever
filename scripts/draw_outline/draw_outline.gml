@@ -1,5 +1,12 @@
-draw_sprite_ext(sprite_index, -2, x - 2, y, 1, 1, 0, c_black, 1);
-draw_sprite_ext(sprite_index, -2, x + 2, y, 1, 1, 0, c_black, 1);
-draw_sprite_ext(sprite_index, -2, x, y - 2, 1, 1, 0, c_black, 1);
-draw_sprite_ext(sprite_index, -2, x, y + 2, 1, 1, 0, c_black, 1);
+var color = argument0;
+var thickness = 2;
+
+draw_sprite_ext(sprite_index, -thickness, x - thickness, y, image_xscale,
+                image_yscale, image_angle, color, image_alpha);
+draw_sprite_ext(sprite_index, -thickness, x + thickness, y, image_xscale,
+                image_yscale, image_angle, color, image_alpha);
+draw_sprite_ext(sprite_index, -thickness, x, y - thickness, image_xscale,
+                image_yscale, image_angle, color, image_alpha);
+draw_sprite_ext(sprite_index, -thickness, x, y + thickness, image_xscale,
+                image_yscale, image_angle, color, image_alpha);
 draw_self();

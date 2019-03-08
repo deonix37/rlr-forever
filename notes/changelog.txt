@@ -1,3 +1,29 @@
+v0.5
+
+Player:
+* Added base speed.
+* Added more runlings and their abilities.
+* Changed color pallette.
+
+Drones:
+* Added the flyer and supremo chaser drones.
+* Added more spawn scripts for the aviator drone.
+* Reduced the speed increment of the wanderer drone.
+* Made the chaser drone's speed to be relative to player's base speed.
+
+Music:
+* Added muted state of the music to the save file.
+
+Camera:
+* Changed default camera size from 960x540 to 1280x720.
+* Made the camera following option to be turned on by default.
+
+Other:
+* Made the data save when player dies.
+* Implemented a version tagged save file system.
+* Added camera following key to input (keymap) init config.
+
+-----
 v0.4
 
 Drones:

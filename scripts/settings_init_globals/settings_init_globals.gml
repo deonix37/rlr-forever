@@ -1,5 +1,8 @@
+#macro VOLUME_MIN 0
+#macro VOLUME_MAX 1
+#macro VOLUME_DECIMAL_PRECISION 1
+
 enum BGM_MODES {classic, new}
-enum ARROW_TYPES {left, right}
 enum OPTION_TYPES {input, list, volume_range}
 
 global.options = ds_map_create();
@@ -12,18 +15,18 @@ ds_list_add(global.options[? "Color"], "Red", "Brown", "Orange", "Yellow",
 ds_list_add(global.options[? "BGM mode"], "Classic", "New");
 
 global.player_colors = ds_map_create();
-global.player_colors[? "Red"] = make_color_rgb(255, 0, 77);
-global.player_colors[? "Brown"] = make_color_rgb(171, 82, 54);
-global.player_colors[? "Orange"] = make_color_rgb(255, 163, 0);
-global.player_colors[? "Yellow"] = make_color_rgb(255, 236, 39);
-global.player_colors[? "Green"] = make_color_rgb(0, 228, 54);
-global.player_colors[? "Blue"] = make_color_rgb(41, 173, 255);
-global.player_colors[? "Indigo"] = make_color_rgb(131, 118, 156);
-global.player_colors[? "Pink"] = make_color_rgb(255, 119, 168);
-global.player_colors[? "Peach"] = make_color_rgb(255, 204, 170);
-global.player_colors[? "Dark-Blue"] = make_color_rgb(29, 43, 83);
-global.player_colors[? "Dark-Puple"] = make_color_rgb(126, 37, 83);
-global.player_colors[? "Dark-Green"] = make_color_rgb(0, 135, 81);
+global.player_colors[? "Red"] = make_color_rgb(247, 0, 20);
+global.player_colors[? "Brown"] = make_color_rgb(106, 36, 6);
+global.player_colors[? "Orange"] = make_color_rgb(248, 107, 31);
+global.player_colors[? "Yellow"] = make_color_rgb(251, 252, 65);
+global.player_colors[? "Green"] = make_color_rgb(117, 253, 102);
+global.player_colors[? "Blue"] = make_color_rgb(48, 70, 249);
+global.player_colors[? "Indigo"] = make_color_rgb(31, 144, 168);
+global.player_colors[? "Pink"] = make_color_rgb(249, 143, 251);
+global.player_colors[? "Peach"] = make_color_rgb(250, 216, 173);
+global.player_colors[? "Dark-Blue"] = make_color_rgb(18, 71, 166);
+global.player_colors[? "Dark-Puple"] = make_color_rgb(107, 33, 166);
+global.player_colors[? "Dark-Green"] = make_color_rgb(41, 108, 20);
 
 global.bgm_modes = ds_map_create();
 global.bgm_modes[? "Classic"] = BGM_MODES.classic;

@@ -12,6 +12,9 @@ Add minigame.
 Probably convert menu buttons objects to text.
 Make removal of ds.
 Make an arrow if player leaves camera's view.
+Check out the game on different resolutions.
+RMB is autoclicker.
+Remove persistent flag when game over.
 
 Multiplayer:
 Make multiplayer.

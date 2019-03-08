@@ -1,1 +1,1 @@
-is_start = true;
+is_start_zone = true;

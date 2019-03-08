@@ -1,23 +1,23 @@
 {
-    "id": "c3f97350-3f5e-4e9f-8ea4-4f8cd3c01a0b",
+    "id": "a2e184eb-5aaf-497f-b85b-a08c7fab8aeb",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_drone_chaser_parent",
     "eventList": [
         {
-            "id": "e14c8cea-415a-4d46-a17b-7d040b936941",
+            "id": "1494f750-81fc-43fe-aa42-22437edaba48",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "e13dce23-2aba-4942-abd5-f392fa29175e",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "c3f97350-3f5e-4e9f-8ea4-4f8cd3c01a0b"
+            "m_owner": "a2e184eb-5aaf-497f-b85b-a08c7fab8aeb"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "8eefdfe3-7ae4-47e2-ab12-b56d0c9ae495",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

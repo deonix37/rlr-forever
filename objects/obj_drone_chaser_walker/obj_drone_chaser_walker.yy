@@ -1,33 +1,33 @@
 {
-    "id": "da750fb9-9308-4d7f-930f-39941664a935",
+    "id": "c3f97350-3f5e-4e9f-8ea4-4f8cd3c01a0b",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_drone_chaser_walker",
     "eventList": [
         {
-            "id": "e19e7541-c1ef-4f41-b4dd-e3ead63af6b7",
+            "id": "c366856f-fc65-4c16-8419-42a7144d19e8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "da750fb9-9308-4d7f-930f-39941664a935"
+            "m_owner": "c3f97350-3f5e-4e9f-8ea4-4f8cd3c01a0b"
         },
         {
-            "id": "1d0eebc8-e9b3-4d10-9345-03f5e7d80218",
+            "id": "09e053e8-1dd9-4ddf-bac0-696e4cb45414",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "da750fb9-9308-4d7f-930f-39941664a935"
+            "m_owner": "c3f97350-3f5e-4e9f-8ea4-4f8cd3c01a0b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "c3f97350-3f5e-4e9f-8ea4-4f8cd3c01a0b",
+    "parentObjectId": "a2e184eb-5aaf-497f-b85b-a08c7fab8aeb",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

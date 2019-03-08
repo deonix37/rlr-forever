@@ -1,3 +1,3 @@
-var runling = create_new_runling();
-
-room_goto(rm_labyrinth);
+instance_deactivate_object(obj_new_runling_btn);
+instance_deactivate_object(obj_load_runling_btn);
+display_runling_prototypes();

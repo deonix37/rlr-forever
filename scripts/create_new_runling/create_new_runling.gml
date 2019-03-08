@@ -1,4 +1,4 @@
-var type = RUNLING_TYPES.zergling;
+var type = argument0;
 var runlings = global.save_data[? "Runlings"];
 
 global.runling_temporary = ds_map_create();

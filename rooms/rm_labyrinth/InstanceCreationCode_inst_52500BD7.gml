@@ -1,1 +1,1 @@
-is_finish = true;
+is_finish_zone = true;
