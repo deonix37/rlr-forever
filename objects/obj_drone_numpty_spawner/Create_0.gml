@@ -1,15 +1,12 @@
-var drones_per_line = 8;
-var spanwer_spr_size = 16;
-var spawner_size_x = EMPTY_SPRITE_SIZE * image_xscale;
-var spawner_size_y = EMPTY_SPRITE_SIZE * image_yscale;
-var spawn_offset_x = sprite_get_width(spr_drone_big);
-var spawn_offset_y = sprite_get_height(spr_drone_big);
+event_inherited();
 
-repeat (drones_per_line) {
-    var pos_x = random_range(x + spawn_offset_x, x + spawner_size_x - spawn_offset_x);
-    var pos_y = random_range(y + spawn_offset_y, y + spawner_size_y - spawn_offset_y);
-    
-    instance_create_layer(pos_x, pos_y, global.drones_layer, obj_drone_numpty_small);
-}
+spawners = ds_list_create();
 
+ds_list_add(spawners, inst_1F4D77F3, inst_26E2700D, inst_2910C701, inst_6CFA517A,
+            inst_783408FC, inst_7D79F2D3, inst_DDC3F5A, inst_25B18D4C,
+            inst_2D3EF479, inst_4E5E29EE, inst_148F320, inst_6CDFE53D,
+            inst_8F306C1, inst_6734C46F, inst_781A0D1F, inst_723C71E1,
+            inst_5A5301DC, inst_6F9034AF, inst_731D130D);
+drone_numpty_spawner_init();
+ds_list_destroy(spawners);
 instance_destroy();

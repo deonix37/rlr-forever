@@ -1,6 +1,6 @@
 event_inherited();
 
-image_blend = make_color_rgb(255, 255, 64);
+image_blend = make_color_rgb(251, 252, 104);
 
 outline_color = c_black;
 relative_speed_rate = 0.8;

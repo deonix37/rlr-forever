@@ -1,8 +1,5 @@
 if (spawn_timer == 0) {
-    var drone = instance_create_layer(x, y, global.drones_layer,
-                                      obj_drone_aviator_small);
-    
-    with (drone) {
+    with (instance_create_layer(x, y, global.drones_layer, drone_object)) {
         motion_set(random(360), other.drone_move_speed);
     }
 }

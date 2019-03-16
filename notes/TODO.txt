@@ -14,8 +14,8 @@ Make removal of ds.
 Make an arrow if player leaves camera's view.
 Check out the game on different resolutions.
 RMB is autoclicker.
-Remove persistent flag when game over.
-
-Multiplayer:
-Make multiplayer.
-Remake the player color system (each player must have a unique color).
+Remove all persistent flag when game over.
+Move settings save handling to the back button.
+Maybe convert gui text object into gui button object.
+Remove rm_difficulty.
+Make intro.

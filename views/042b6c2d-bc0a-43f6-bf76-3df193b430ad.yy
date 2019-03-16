@@ -18,7 +18,13 @@
         "00f9b9b0-86d8-4993-ad1d-5ac051ed78ce",
         "e0c6f3de-daa2-48b9-af31-5680b59baf4b",
         "cbf243c2-e053-4016-bfa2-341c176e59e5",
-        "36bdcc87-d71e-4e5b-86f4-e8c55964b8b5"
+        "36bdcc87-d71e-4e5b-86f4-e8c55964b8b5",
+        "dcfa7b0d-be86-4dbe-aa56-ca6cad1db881",
+        "7a09e113-2829-493c-8c94-2e5e8afb2670",
+        "4b3c84e0-5664-4e94-9903-0d355ea3085b",
+        "463e039c-3be9-4fbb-aafd-2655abb8506e",
+        "14b51910-b9aa-44ef-8116-dafb3579bcb3",
+        "e19943a9-abc5-42cc-9fdf-0cfda87b3343"
     ],
     "filterType": "GMObject",
     "folderName": "drones",

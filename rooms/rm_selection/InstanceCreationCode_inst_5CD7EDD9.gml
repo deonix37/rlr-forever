@@ -1,0 +1,1 @@
+ds_list_add(buttons, inst_6852FE49, inst_79703854, inst_4B7179DE);

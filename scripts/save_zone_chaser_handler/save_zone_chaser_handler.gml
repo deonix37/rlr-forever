@@ -1,6 +1,6 @@
-if (chaser_end_zone != noone) {
+if (chaser_end_zone != noone && chaser_object != noone) {
     var chaser = instance_create_layer(previous_save_zone.x, previous_save_zone.y,
-                                       "Drones", obj_drone_chaser_supremo);
+                                       "Drones", chaser_object);
     chaser.target = other;
     
     chaser_end_zone.active_chaser = chaser;

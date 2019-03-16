@@ -1,3 +1,22 @@
+v0.6
+
+Drones:
+* Added the crimson and persimmon drones.
+
+Camera & Window:
+* Made fullscreen to be enabled by default.
+
+Menu:
+* Fixed settings.
+* Converted buttons to be clickable text.
+* Implemented keyboard menu navigation.
+* Implemented nickname modification.
+
+Other:
+* Implemented difficulties.
+* Added the Normal and Hard difficulties.
+
+-----
 v0.5
 
 Player:

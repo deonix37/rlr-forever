@@ -1,4 +1,4 @@
-if (true) {
+if (!code_is_compiled()) {
     var camera_height = camera_get_view_height(MAIN_CAMERA);
     var minimap_scale = view_ratio * camera_height / minimap_spr_size;
     var minimap_x = 0;

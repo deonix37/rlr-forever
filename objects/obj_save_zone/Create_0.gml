@@ -4,3 +4,5 @@ chaser_end_zone = noone;
 active_chaser = noone;
 is_start_zone = false;
 is_finish_zone = false;
+
+save_zone_chaser_init();

@@ -2,10 +2,7 @@ if (spawn_timer == 0) {
     drone_move_angle = 0;
     
     for (var i = 0; i < drones_per_circle; i++) {
-        var drone = instance_create_layer(x, y, global.drones_layer,
-                                          obj_drone_aviator_big);
-        
-        with (drone) {
+        with (instance_create_layer(x, y, global.drones_layer, drone_object)) {
             motion_set(other.drone_move_angle, other.drone_move_speed);
         }
         

@@ -33,9 +33,12 @@ global.bgm_modes[? "Classic"] = BGM_MODES.classic;
 global.bgm_modes[? "New"] = BGM_MODES.new;
 
 global.settings_types = ds_map_create();
-global.settings_labels = ["Nickname", "Color", "BGM mode", "BGM volume", "SFX volume"];
+global.settings_names = ["Nickname", "Color", "BGM mode", "BGM volume", "SFX volume"];
 global.settings_types[? "Nickname"] = OPTION_TYPES.input;
 global.settings_types[? "Color"] = OPTION_TYPES.list;
 global.settings_types[? "BGM mode"] = OPTION_TYPES.list;
 global.settings_types[? "BGM volume"] = OPTION_TYPES.volume_range;
 global.settings_types[? "SFX volume"] = OPTION_TYPES.volume_range;
+
+global.nickname_characters = "abcdefghijklmnopqrstuvwxyz0123456789_";
+global.nickname_max_length = 12;

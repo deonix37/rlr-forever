@@ -5,7 +5,7 @@ for (var i = 0; i < ds_list_size(runlings); i++) {
     
     var runling = json_decode(runlings[| i]);
     var runling_btn = instance_create_layer(spawn_x, 64, "Instances",
-                                            obj_runling_option_load);
+                                            obj_runling_icon_load);
     
     var prototype = global.runling_prototypes[? runling[? "Type"]];
     var prototype_sprites = prototype[? "Sprites"];
