@@ -1,3 +1,25 @@
+v0.7
+
+Menu:
+* Fixed settings.
+* Improved button navigation.
+
+Player:
+* Implemented roach's swiftness ability.
+* Implemented mouse movement control (RMB to follow cursor).
+* Reworked baneling's blink ability.
+
+Drones:
+* Increased wanderer's speed increment.
+* Increased persimmon's wave range.
+
+Music:
+* Added more music.
+
+Other:
+* Added a layer for each lane for the blink ability.
+
+-----
 v0.6
 
 Drones:

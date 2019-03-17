@@ -18,8 +18,10 @@ Music:
 * Henry Homesweet - Okii Robo Navigation System
 * Basshunter - Dota
 * Bearbot - Baller
+* Cyberwave Orchestra - Emperor
 * Just4fail sounds - Infinity (Nightcore Remix)
 * slackcircus - What's Up
 * A. Aireve - Fireflies (Nightcore Remix)
 * xpastel - When Can I See You Again (Nightcore Remix)
 * Korg Pa 900 - Ecuador (Techno Trance Remix)
+* NinjaBudgie - Yum Yum (Nightcore Remix)

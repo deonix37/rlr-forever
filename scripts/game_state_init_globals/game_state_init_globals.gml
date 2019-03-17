@@ -5,7 +5,7 @@
 enum DIFFICULTIES {normal, hard, insane}
 
 global.current_round = 1;
-global.current_difficulty = DIFFICULTIES.hard;
+global.current_difficulty = DIFFICULTIES.normal;
 
 global.drones_layer = "Drones";
 global.player_layer = "Player";

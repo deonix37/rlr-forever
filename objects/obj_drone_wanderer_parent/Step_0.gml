@@ -3,7 +3,7 @@ var current_distance = distance_to_point(dest_x, dest_y);
 if (round(current_distance) == 0) {
     dest_x = random_range(0, room_width);
     dest_y = random_range(0, room_height);
-    vel_increment = random_range(0.01, 0.02);
+    vel_increment = random_range(vel_increment_min, vel_increment_max);
     total_distance = distance_to_point(dest_x, dest_y);
 }
 

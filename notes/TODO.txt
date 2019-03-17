@@ -1,21 +1,6 @@
-Redraw startup logo.
-Resize minimap sprite.
-Make the possibiliy to change nickname.
-Make possibility to configure settings with keyboard.
-Change the font of the title label.
-Probably change the buttons' font.
-Clean the fullscreen toggler (F10).
-Redraw map tileset.
-Provide instructions for controls.
-Add the possibility to move with mouse.
-Add minigame.
-Probably convert menu buttons objects to text.
-Make removal of ds.
-Make an arrow if player leaves camera's view.
-Check out the game on different resolutions.
-RMB is autoclicker.
-Remove all persistent flag when game over.
-Move settings save handling to the back button.
-Maybe convert gui text object into gui button object.
-Remove rm_difficulty.
-Make intro.
+Make intro with instructions.
+Add a minigame.
+Add more HUD.
+Redesign everything.
+Add player's acceleration/decceleration.
+Add multiplayer.

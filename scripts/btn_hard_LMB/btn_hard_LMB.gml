@@ -1,3 +1,3 @@
-global.current_difficulty = DIFFICULTIES.hard;
+navigation_toggle_buttons_state();
 
-room_goto(rm_labyrinth);
+global.current_difficulty = DIFFICULTIES.hard;

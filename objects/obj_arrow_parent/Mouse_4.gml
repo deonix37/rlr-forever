@@ -1,5 +1,6 @@
-var setting_type = global.settings_types[? setting_option.setting_name];
-var setting_value = global.save_data[? setting_option.setting_name];
+var setting_name = setting_option.setting_name;
+var setting_type = global.settings_types[? setting_name];
+var setting_value = global.save_data[? setting_name];
 
 switch (setting_type) {
     case OPTION_TYPES.volume_range:
@@ -28,5 +29,3 @@ setting_option.text = setting_value;
 setting_option.color = setting_color;
 
 global.save_data[? setting_name] = setting_value;
-
-ds_map_secure_save(global.save_data, SAVE_FILENAME);

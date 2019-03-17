@@ -7,7 +7,7 @@
         
     ],
     "filterType": "GMSound",
-    "folderName": "boss",
+    "folderName": "boss_classic",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -21,4 +21,7 @@ global.save_data[? "Camera width"] = camera_width_new;
 global.save_data[? "Camera height"] = camera_height_new;
 
 camera_set_view_size(MAIN_CAMERA, camera_width_new, camera_height_new);
-surface_resize(application_surface, camera_width_new, camera_height_new);
+
+if (surface_exists(application_surface)) {
+    surface_resize(application_surface, camera_width_new, camera_height_new);
+}

@@ -8,3 +8,5 @@ alpha = undefined;
 LMB_script = undefined;
 RMB_script = undefined;
 MMB_script = undefined;
+
+is_instant = false;

@@ -8,3 +8,5 @@ total_distance = 0;
 
 vel = 0;
 vel_increment = 0;
+vel_increment_min = 0.02;
+vel_increment_max = 0.03;

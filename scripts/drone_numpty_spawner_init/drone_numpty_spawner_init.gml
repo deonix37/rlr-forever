@@ -58,7 +58,7 @@ switch (global.current_difficulty) {
             case 4:
                 sequence_big = [7, 7, 7, 7, 7, 7, 7, 7, 6, 6,
                                 6, 6, 4, 4, 4, 4, 3, 3, 5];
-                drone_move_speed = 2;
+                drone_move_speed = 3;
                 
                 break;
             case 5:
@@ -67,7 +67,7 @@ switch (global.current_difficulty) {
             case 9:
                 sequence_big = [7, 7, 7, 7, 7, 7, 7, 7, 6, 6,
                                 6, 6, 4, 4, 4, 4, 3, 3, 7];
-                drone_move_speed = 2;
+                drone_move_speed = 3;
                 
                 break;
         }

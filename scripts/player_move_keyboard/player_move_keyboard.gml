@@ -30,6 +30,12 @@ if (!is_colliding_x) {
     
 if (!is_colliding_y) {
     y = player_y_new;
+	    
+    if (direction_factor_y == 1) {
+        direction = 270;
+    } else if (direction_factor_y == -1) {
+        direction = 90;
+    }
 }
     
 speed = 0;
