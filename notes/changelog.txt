@@ -1,3 +1,10 @@
+v0.7.1
+
+Other:
+* Added intro.
+* Fixes, checks, and balances.
+
+---
 v0.7
 
 Menu:

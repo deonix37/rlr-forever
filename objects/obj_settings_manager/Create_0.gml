@@ -15,7 +15,7 @@ for (var i = 0; i < array_length_1d(global.settings_names); i++) {
     
     var setting_color = setting_name == "Color" ? global.player_colors[? setting_value] : c_white;
     var setting_option = create_obj_gui_text(option_x, setting_y[i], setting_value,
-                                             fnt_general, setting_color);
+                                             fnt_general, fa_center, setting_color);
     setting_option.setting_name = setting_name;
     
     ds_list_add(option_navigation.buttons, setting_option);

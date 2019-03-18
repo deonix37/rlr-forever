@@ -16,8 +16,5 @@ var next_index = button_index + increment;
 button_index = (next_index % button_count + button_count) % button_count;
 current_button = buttons[| button_index];
 
-with (current_button) {
-    navigation_toggle_buttons_state();
-}
-
+navigation_toggle_buttons_state(current_button);
 navigation_toggle_arrows_color();

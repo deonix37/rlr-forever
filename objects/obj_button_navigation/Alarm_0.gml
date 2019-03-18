@@ -1,5 +1,7 @@
 var first_button = buttons[| 0];
 
-if (first_button && first_button.color == color_inactive) {
-    first_button.color = color_active;
+if (!is_undefined(first_button)) {
+    current_button = first_button;
+    
+    navigation_toggle_buttons_state(first_button);
 }

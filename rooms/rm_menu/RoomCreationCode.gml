@@ -1,4 +1,3 @@
-initialize_all_globals();
 window_set_cursor(cr_default);
 
 if (surface_exists(application_surface)) {

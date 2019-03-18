@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "31520c03-3605-4f82-a344-95fb1009b4b5",
+            "Value": {
+                "id": "1c1aa173-5d1b-4b40-b242-e1081de63956",
+                "resourcePath": "rooms\\rm_intro\\rm_intro.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "33144f31-83d4-4841-a87d-5a92aff3bc39",
             "Value": {
                 "id": "2073bb86-163b-4a19-9524-e13837a25634",
@@ -1172,6 +1180,14 @@
                 "id": "7909edfa-2a18-4162-874b-d0d6455be7b8",
                 "resourcePath": "views\\a0bcb8ad-6e33-4fe2-9e27-dbf49cf9d816.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a11d8c0d-177d-4f10-a3ec-a126e1990e9f",
+            "Value": {
+                "id": "f49ba4c9-9a80-48ad-a904-1d100ca0daa5",
+                "resourcePath": "scripts\\btn_intro_continue_LMB\\btn_intro_continue_LMB.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1961,12 +1977,12 @@
     ],
     "script_order": [
         "f3d64555-0ec2-43a5-a700-2c89aecc9ea6",
-        "5f3e2db3-8e32-4515-bf19-51d5e248a24f",
         "19e6359e-a49e-48da-98bd-91fd3ddfecad",
-        "b7c3172e-53c0-4149-9f36-0d25ff56570d",
-        "5c580aa4-847e-4821-b741-277cb39ec32b",
-        "5a616354-075c-488c-b274-49ab9abcec11",
         "0cde227a-0041-4f4a-91cd-1d07722d5dae",
+        "5f3e2db3-8e32-4515-bf19-51d5e248a24f",
+        "5a616354-075c-488c-b274-49ab9abcec11",
+        "5c580aa4-847e-4821-b741-277cb39ec32b",
+        "b7c3172e-53c0-4149-9f36-0d25ff56570d",
         "3126841b-5ed3-484d-a7d9-6bca3c1fc920",
         "58f52bc3-bb3a-4aa0-8e5d-19d0ac9b6f76",
         "1a7d8364-a1f4-4af5-91b8-5f01c5abc865",
@@ -2024,6 +2040,7 @@
         "24caae38-1a1a-4010-8eff-9f769504a3fd",
         "768c20cf-de78-4e80-bb42-e02a24126557",
         "a9b9bb12-9aa5-4f7e-9136-2bcfab87ab27",
+        "a11d8c0d-177d-4f10-a3ec-a126e1990e9f",
         "2d2560cc-be03-4f74-85b2-34ed51c489d3",
         "bf069dc2-cd8a-471c-8d6d-1559d40f1709",
         "baec843b-0c61-4c19-89cc-0acfade5f5bd",

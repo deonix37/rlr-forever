@@ -1,1 +1,1 @@
-move_speed -= speed_boost;
+move_speed -= speed_boost_roach;

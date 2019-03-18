@@ -1,6 +1,7 @@
-Make intro with instructions.
 Add a minigame.
 Add more HUD.
 Redesign everything.
 Add player's acceleration/decceleration.
 Add multiplayer.
+Add savefile version compatibility.
+Add sound effects and decorations.

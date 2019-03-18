@@ -19,7 +19,7 @@ switch (global.current_difficulty) {
                 
                 break;
             case 8:
-                spawn_frequency = 5;
+                spawn_frequency = 7;
                 drone_move_script = drone_persimmon_move_wave;
                 spawn_script = drone_persimmon_spawner_spawn_spiral;
                 
