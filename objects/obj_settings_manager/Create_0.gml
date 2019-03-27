@@ -8,9 +8,9 @@ option_x = arrow_left_x + (arrow_right_x - arrow_left_x) / 2 + sprite_get_width(
 
 option_navigation = instance_create_depth(0, 0, 0, obj_button_navigation);
 
-for (var i = 0; i < array_length_1d(global.settings_names); i++) {
-    var setting_name = global.settings_names[i];
-    var setting_type = global.settings_types[? setting_name];
+for (var i = 0; i < array_length_1d(global.setting_names); i++) {
+    var setting_name = global.setting_names[i];
+    var setting_type = global.setting_types[? setting_name];
     var setting_value = global.save_data[? setting_name];
     
     var setting_color = setting_name == "Color" ? global.player_colors[? setting_value] : c_white;
@@ -20,7 +20,7 @@ for (var i = 0; i < array_length_1d(global.settings_names); i++) {
     
     ds_list_add(option_navigation.buttons, setting_option);
     
-    if (setting_type == OPTION_TYPES.input) {
+    if (setting_type == SETTING_TYPES.input) {
         continue;
     }
     

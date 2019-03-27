@@ -1,18 +1,17 @@
 #macro VOLUME_MIN 0
 #macro VOLUME_MAX 1
+#macro VOLUME_INCREMENT 0.1
 #macro VOLUME_DECIMAL_PRECISION 1
 
-enum BGM_MODES {classic, new}
-enum OPTION_TYPES {input, list, volume_range}
+enum SETTING_TYPES {input, list, volume_range}
 
-global.options = ds_map_create();
-global.options[? "Color"] = ds_list_create();
-global.options[? "BGM mode"] = ds_list_create();
+global.setting_options = ds_map_create();
+global.setting_options[? "Color"] = ds_list_create();
+global.setting_options[? "BGM mode"] = ds_list_create();
 
-ds_list_add(global.options[? "Color"], "Red", "Brown", "Orange", "Yellow",
-            "Green", "Blue", "Indigo", "Pink", "Peach", "Dark-Blue",
-            "Dark-Puple", "Dark-Green");
-ds_list_add(global.options[? "BGM mode"], "Classic", "New");
+ds_list_add(global.setting_options[? "Color"], "Red", "Brown", "Orange", "Yellow", "Green",
+            "Blue", "Indigo", "Pink", "Peach", "Dark-Blue", "Dark-Puple", "Dark-Green");
+ds_list_add(global.setting_options[? "BGM mode"], "Classic", "New");
 
 global.player_colors = ds_map_create();
 global.player_colors[? "Red"] = make_color_rgb(247, 0, 20);
@@ -28,17 +27,13 @@ global.player_colors[? "Dark-Blue"] = make_color_rgb(18, 71, 166);
 global.player_colors[? "Dark-Puple"] = make_color_rgb(107, 33, 166);
 global.player_colors[? "Dark-Green"] = make_color_rgb(41, 108, 20);
 
-global.bgm_modes = ds_map_create();
-global.bgm_modes[? "Classic"] = BGM_MODES.classic;
-global.bgm_modes[? "New"] = BGM_MODES.new;
-
-global.settings_types = ds_map_create();
-global.settings_names = ["Nickname", "Color", "BGM mode", "BGM volume", "SFX volume"];
-global.settings_types[? "Nickname"] = OPTION_TYPES.input;
-global.settings_types[? "Color"] = OPTION_TYPES.list;
-global.settings_types[? "BGM mode"] = OPTION_TYPES.list;
-global.settings_types[? "BGM volume"] = OPTION_TYPES.volume_range;
-global.settings_types[? "SFX volume"] = OPTION_TYPES.volume_range;
+global.setting_types = ds_map_create();
+global.setting_names = ["Nickname", "Color", "BGM mode", "BGM volume", "SFX volume"];
+global.setting_types[? "Nickname"] = SETTING_TYPES.input;
+global.setting_types[? "Color"] = SETTING_TYPES.list;
+global.setting_types[? "BGM mode"] = SETTING_TYPES.list;
+global.setting_types[? "BGM volume"] = SETTING_TYPES.volume_range;
+global.setting_types[? "SFX volume"] = SETTING_TYPES.volume_range;
 
 global.nickname_characters = "abcdefghijklmnopqrstuvwxyz0123456789_";
 global.nickname_max_length = 12;

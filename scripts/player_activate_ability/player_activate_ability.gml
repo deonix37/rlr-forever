@@ -23,5 +23,7 @@ switch (ability[? "Type"]) {
             script_execute(ability[? "Script"], false);
         }
         
+        regen = -regen;
+        
         break;
 }

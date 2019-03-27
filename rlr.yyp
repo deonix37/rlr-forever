@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "1fe27869-b707-4c08-87c6-cc674cdcf55e",
+            "Value": {
+                "id": "ae5070ad-8737-43b7-adcd-e3aef94901fe",
+                "resourcePath": "views\\1fe27869-b707-4c08-87c6-cc674cdcf55e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "23272e6f-2dae-4f87-9314-72b02f86c1c4",
             "Value": {
                 "id": "915ece1f-e6d7-4a24-a51d-3ec4bec4ae32",
@@ -635,6 +643,14 @@
             "Value": {
                 "id": "26123850-f15d-4646-99a1-908b65f2a8a5",
                 "resourcePath": "views\\50a2162f-b3ac-4650-89b0-6604eedd7dfb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "515a585b-ed71-4e52-b441-13f21ff77d19",
+            "Value": {
+                "id": "1a3e964b-16c0-48e1-bb1a-061565f45368",
+                "resourcePath": "views\\515a585b-ed71-4e52-b441-13f21ff77d19.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1023,6 +1039,14 @@
             }
         },
         {
+            "Key": "8b13118e-da2f-4510-b28b-e149fd1859e8",
+            "Value": {
+                "id": "97a18005-f1f8-47c7-a25f-ff40a71c0ece",
+                "resourcePath": "views\\8b13118e-da2f-4510-b28b-e149fd1859e8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8bb4d020-ff91-48a2-a8d4-b15df9bc9903",
             "Value": {
                 "id": "5080412a-d24d-4908-978d-f83b1f84aeb1",
@@ -1367,6 +1391,14 @@
             }
         },
         {
+            "Key": "b4c9aa43-fbc9-4ce4-a3fc-ef8212242e1a",
+            "Value": {
+                "id": "f85ebcbb-b4dd-4133-b622-428ba023c65c",
+                "resourcePath": "views\\b4c9aa43-fbc9-4ce4-a3fc-ef8212242e1a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b64bcb61-3451-4990-9892-97526a31348a",
             "Value": {
                 "id": "bc85aad1-32e8-4a46-b053-abacfb42df4c",
@@ -1439,6 +1471,14 @@
             }
         },
         {
+            "Key": "bf6da236-1541-435c-a078-ce44a6bba7c6",
+            "Value": {
+                "id": "ceb7efcf-a8a7-4161-9288-8cd5af2239ae",
+                "resourcePath": "views\\bf6da236-1541-435c-a078-ce44a6bba7c6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c0673f05-4b78-4f4e-b37f-3d7395c92cf0",
             "Value": {
                 "id": "e4e35c05-8232-4b82-98d0-ad3e81739ce9",
@@ -1508,6 +1548,14 @@
                 "id": "88b8a345-d674-4096-8d90-bc7c3caf3698",
                 "resourcePath": "objects\\obj_cursor_toggler\\obj_cursor_toggler.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cd28419c-c093-4225-af7e-566381eeb783",
+            "Value": {
+                "id": "756dccbb-97cf-47de-af86-6b1867385249",
+                "resourcePath": "scripts\\player_acceleration_handler\\player_acceleration_handler.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1660,6 +1708,14 @@
                 "id": "99ba876e-55f0-4fc7-9679-0468b6b58234",
                 "resourcePath": "objects\\obj_drone_persimmon_parent\\obj_drone_persimmon_parent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dfbacb29-6af5-4fe3-83b5-bb288bb23a1b",
+            "Value": {
+                "id": "864a83f1-c17e-4a64-93e8-d53f004b4199",
+                "resourcePath": "views\\dfbacb29-6af5-4fe3-83b5-bb288bb23a1b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1919,14 +1975,6 @@
             }
         },
         {
-            "Key": "faadd0a1-c4f4-4c8e-bf00-98400b9f5e31",
-            "Value": {
-                "id": "1141b72e-2c2b-4956-9f4e-9018f76b8666",
-                "resourcePath": "scripts\\player_deactivate_ability\\player_deactivate_ability.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "fb9ee4ce-70b4-4342-8710-581691767e58",
             "Value": {
                 "id": "ca1e0ea0-d13c-4a34-ac70-88a19efbd785",
@@ -1985,11 +2033,11 @@
         "b7c3172e-53c0-4149-9f36-0d25ff56570d",
         "3126841b-5ed3-484d-a7d9-6bca3c1fc920",
         "58f52bc3-bb3a-4aa0-8e5d-19d0ac9b6f76",
+        "3331d0ac-886b-4e22-b95f-39cfc4da6166",
         "1a7d8364-a1f4-4af5-91b8-5f01c5abc865",
         "e58cef8e-310c-42e3-9418-1e96cfd6a4d6",
         "92eb69da-d455-4f15-a632-a56f40b123b9",
-        "3331d0ac-886b-4e22-b95f-39cfc4da6166",
-        "faadd0a1-c4f4-4c8e-bf00-98400b9f5e31",
+        "cd28419c-c093-4225-af7e-566381eeb783",
         "b26d2f0e-65f4-46db-a2d5-74012792e55b",
         "fcebc70a-506b-414f-bed8-f0b6ce22ea2c",
         "b198714c-b4a7-4e68-8b8b-35023fd6577d",

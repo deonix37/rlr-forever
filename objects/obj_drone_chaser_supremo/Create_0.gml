@@ -15,6 +15,4 @@ throbbing_range = 1;
 
 growth_distance = 1024;
 
-relative_speed_rate = 0.8;
-
 target = undefined;

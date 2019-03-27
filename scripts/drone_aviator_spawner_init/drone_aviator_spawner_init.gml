@@ -41,11 +41,11 @@ switch (global.current_difficulty) {
         switch (global.current_round) {
             case 2:
             case 3:
-                drone_move_speed = 8;
+                drone_move_speed = 7;
                 
                 break;
             case 4:
-                drone_move_speed = 8;
+                drone_move_speed = 7;
                 spawn_frequency = 240;
                 drone_object = obj_drone_aviator_big;
                 spawn_script = drone_aviator_spawner_spawn_circle;
@@ -53,7 +53,7 @@ switch (global.current_difficulty) {
                 break;
             case 9:
                 spiral_count = 2;
-                drone_move_speed = 8;
+                drone_move_speed = 7;
                 spawn_frequency = 20;
                 drone_object = obj_drone_aviator_big;
                 spawn_script = drone_aviator_spawner_spawn_spiral;

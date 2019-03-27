@@ -5,9 +5,9 @@ if (!variable_instance_exists(current_option, "setting_name")
     exit;
 }
 
-var setting_type = global.settings_types[? current_option.setting_name];
+var setting_type = global.setting_types[? current_option.setting_name];
 
-if (setting_type != OPTION_TYPES.input) {
+if (setting_type != SETTING_TYPES.input) {
     exit;
 }
 

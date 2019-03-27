@@ -1,10 +1,23 @@
+v0.8
+
+Player:
+* Made a better autoclicker (hold left mouse button).
+* Added acceleration/deceleration.
+* Added max level (75).
+* Made regen increase when level up.
+* Improved abilities.
+
+Other:
+* Added savefile version compatibility.
+
+-----
 v0.7.1
 
 Other:
 * Added intro.
 * Fixes, checks, and balances.
 
----
+-----
 v0.7
 
 Menu:

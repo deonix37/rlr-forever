@@ -1,11 +1,11 @@
-#macro GAME_VERSION "0.7.1"
-#macro SAVE_FILENAME "save-" + GAME_VERSION + ".win"
+#macro GAME_VERSION "0.8"
+#macro GAME_VERSION_MAJOR "0"
+#macro SAVE_FILENAME "save-v" + GAME_VERSION_MAJOR + ".dat"
 
-global.is_new_save = false;
 global.save_data = ds_map_secure_load(SAVE_FILENAME);
+global.is_new_save = !ds_exists(global.save_data, ds_type_map);
 
-if (!ds_exists(global.save_data, ds_type_map)) {
-    global.is_new_save = true;
+if (global.is_new_save) {
     global.save_data = ds_map_create();
     
     init_new_savefile(global.save_data);
