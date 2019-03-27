@@ -1,4 +1,4 @@
-#macro GAME_VERSION "0.8"
+#macro GAME_VERSION "0.8.1"
 #macro GAME_VERSION_MAJOR "0"
 #macro SAVE_FILENAME "save-v" + GAME_VERSION_MAJOR + ".dat"
 

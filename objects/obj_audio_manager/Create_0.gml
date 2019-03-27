@@ -9,8 +9,6 @@ if (global.save_data[? "BGM mode"] == "Classic") {
 track = -1;
 track_index = -1;
 
-transition_alarm = 0;
-
 volume_gain = global.save_data[? "BGM muted"] ? 0 : global.save_data[? "BGM volume"];
 
 audio_master_gain(volume_gain);
