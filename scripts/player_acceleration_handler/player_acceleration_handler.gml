@@ -7,7 +7,7 @@ if (is_moving_mouse && abs(angle_difference(direction_prev, direction)) > 45) {
 if (is_moving_keyboard || is_moving_mouse) {
     step = acceleration_step;
 } else {
-    step = -acceleration_step * 2;
+    step = acceleration_step * -2;
 }
 
 acceleration = clamp(acceleration + step, acceleration_min, acceleration_max);

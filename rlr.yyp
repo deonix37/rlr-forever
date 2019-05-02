@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "10621b08-d013-44ec-9298-c4465187897a",
+            "Value": {
+                "id": "d8f8b1f2-6b90-4d0a-9161-77026e8c3091",
+                "resourcePath": "scripts\\player_stop_mouse_movement\\player_stop_mouse_movement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "11b84941-47e5-4b97-8e59-32e5b78b17c3",
             "Value": {
                 "id": "e7471b1b-f711-4a45-8ee4-db070694da85",
@@ -2038,6 +2046,7 @@
         "e58cef8e-310c-42e3-9418-1e96cfd6a4d6",
         "92eb69da-d455-4f15-a632-a56f40b123b9",
         "cd28419c-c093-4225-af7e-566381eeb783",
+        "10621b08-d013-44ec-9298-c4465187897a",
         "b26d2f0e-65f4-46db-a2d5-74012792e55b",
         "fcebc70a-506b-414f-bed8-f0b6ce22ea2c",
         "b198714c-b4a7-4e68-8b8b-35023fd6577d",

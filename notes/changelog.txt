@@ -1,3 +1,21 @@
+v0.8.2
+
+Player:
+* Fixed stucking in walls with baneling's blink ability.
+* Fixed the ability to use abilities after death.
+* Implemented the ability to move along walls with mouse.
+
+Drones:
+* Nerfed wavy persimmon's move speed.
+
+-----
+v0.8.1
+
+Other:
+* Fixed music didn't stop after going back to menu.
+* Fixed round counting.
+
+-----
 v0.8
 
 Player:

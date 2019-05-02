@@ -3,7 +3,7 @@ var direction_factor_y = keyboard_check(vk_down) - keyboard_check(vk_up);
 
 is_moving_keyboard = direction_factor_x != 0 || direction_factor_y != 0;
 
-if (!is_moving_keyboard || is_dead) {
+if (is_dead || !is_moving_keyboard) {
     exit;
 }
 
@@ -34,5 +34,4 @@ if (!is_colliding_y) {
     }
 }
 
-is_moving_mouse = false;
-speed = 0;
+player_stop_mouse_movement();

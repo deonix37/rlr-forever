@@ -1,3 +1,3 @@
-angle_increment *= 0.987;
+angle_increment *= 0.99;
 
 direction += angle_increment;

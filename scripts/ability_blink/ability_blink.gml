@@ -1,3 +1,5 @@
+player_stop_mouse_movement();
+
 var dest_x = x + find_limited_offset(x, mouse_x, 256);
 var dest_y = y + find_limited_offset(y, mouse_y, 256);
 
@@ -17,9 +19,9 @@ for (var i = 0; i < array_length_1d(visited_lane_layers); i++) {
     }
 }
 
-while (floor(distance_to_point(dest_x, dest_y)) > 0) {
-    var pos_x_new = lerp(x, dest_x, 0.1);
-    var pos_y_new = lerp(y, dest_y, 0.1);
+while (distance_to_point(dest_x, dest_y) > 10) {
+    var pos_x_new = x + sin(point_direction(x, y, mouse_x, mouse_y));
+    var pos_y_new = y + cos(point_direction(x, y, mouse_x, mouse_y));
     
     if (check_tile_collision(pos_x_new, pos_y_new, "CollisionPlayer")) {
         exit;

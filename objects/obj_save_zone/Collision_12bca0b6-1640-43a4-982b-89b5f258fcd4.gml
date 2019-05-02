@@ -1,6 +1,6 @@
-var has_got_this_player = ds_list_find_index(reached_players, other.id) != -1;
+var player_id = other.id;
 
-if (is_start_zone || has_got_this_player) {
+if (is_start_zone || ds_list_find_index(reached_players, player_id) != -1) {
     exit;
 }
 

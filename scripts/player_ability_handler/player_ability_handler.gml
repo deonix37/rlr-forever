@@ -15,7 +15,7 @@ if (!is_ability_1 && !is_ability_2) {
 
 var ability = prototype[? is_ability_1 ? "Ability 1" : "Ability 2"];
 
-if (energy >= ability[? "Energy"]) {
+if (!is_dead && energy >= ability[? "Energy"]) {
     energy -= ability[? "Energy"];
     
     player_activate_ability(ability);
